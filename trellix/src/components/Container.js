@@ -46,7 +46,7 @@ const Container = () => {
                         <td>{<Checkbox  onChange={(event) => setToggleCheck(event.target.checked)}
                         checked={checked}
                         />}</td>
-                        <td>{<Toggle onChange={(event)=>setToggleSwitch(event.target.checked)} 
+                        <td>{<Toggle onChange={setToggleSwitch}
                         disabled={false}
                         checked={checkedSwitch}
                         />

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Checkbox = () => {
+const Checkbox = ({onChange}) => {
     return (
         <div class="form-check">
-            <input class="form-check-input" type="checkbox" value=""></input>
+            <input class="form-check-input" type="checkbox" value="" onChange={onChange}></input>
         </div>
     )
 }

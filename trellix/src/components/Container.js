@@ -1,4 +1,6 @@
-import React from 'react'
+import React, {useState} from 'react'
+import Checkbox from './Checkbox.js'
+import Toggle from './Toggle'
 
 const Container = () => {
     return (
@@ -14,13 +16,13 @@ const Container = () => {
                 <tbody>
                     <tr>
                         <td>Disabled</td>
-                        <td>Disabled Checkbox</td>
-                        <td>Disabled Toggle</td>
+                        <td>{<Checkbox />}</td>
+                        <td>{<Toggle />}</td>
                     </tr>
                     <tr>
                         <td>Enabled</td>
-                        <td>Enabled Checkbox</td>
-                        <td>Enabled Toggle</td>
+                        <td><Checkbox /></td>
+                        <td>{<Toggle />}</td>
                     </tr>
                 </tbody>
             </table>

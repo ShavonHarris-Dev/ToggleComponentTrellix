@@ -26,13 +26,32 @@ const Container = () => {
                 <tbody>
                     <tr>
                         <td>Disabled</td>
-                        <td>{<Checkbox  onChange={(event) => setToggleCheck(event.target.checked)}/>}</td>
-                        <td>{<Toggle onChange={(event)=>setToggleSwitch(event.target.checked)} />}</td>
+                        <td>{<Checkbox  onChange={(event) => setToggleCheck(event.target.checked)}
+                        disabled={true}
+                        />
+                        }
+
+                        
+                        </td>
+                        <td>{<Toggle onChange={(event)=>setToggleSwitch(event.target.checked)} 
+                        disabled={true}
+                        checked={false}
+                        
+                        />
+                        }
+                        </td>
                     </tr>
                     <tr>
                         <td>Enabled</td>
-                        <td>{<Checkbox  onChange={(event) => setToggleCheck(event.target.checked)}/>}</td>
-                        <td>{<Toggle onChange={(event)=>setToggleSwitch(event.target.checked)} />}</td>
+                        <td>{<Checkbox  onChange={(event) => setToggleCheck(event.target.checked)}
+                        checked={checked}
+                        />}</td>
+                        <td>{<Toggle onChange={(event)=>setToggleSwitch(event.target.checked)} 
+                        disabled={false}
+                        checked={checkedSwitch}
+                        />
+                        }
+                        </td>
                     </tr>
                 </tbody>
             </table>

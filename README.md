@@ -1,5 +1,5 @@
-# Toggle Component: <a href="#" target="_blank">Toggle</a>
-<a href="#" target="_blank"><img src="https://media.giphy.com/media/GMTKszPT82nDXkFTlj/giphy.gif" /></a>
+# Toggle Component: <a href="https://trellixtoggle.netlify.app/" target="_blank">Toggle</a>
+<a href="https://trellixtoggle.netlify.app/" target="_blank"><img src="https://media.giphy.com/media/GMTKszPT82nDXkFTlj/giphy.gif" /></a>
 
 
 I built an app in react that toggles on and off. When toggled the component emits and event. The Component also supports being enabled and disabled and are visually styled to show these states.
